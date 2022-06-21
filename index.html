@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="index.js"></script>
+    <title>Matrix</title>
+</head>
+<body>
+    <div>
+        <label for="columnRows">Columns and Rows:</label>
+        <input type="number" name="columnRows" id="columnRows" required value="2">
+    </div>
+    <div>
+        <table id="matrix">
+            <tr id="1">
+                <th><input type="number" id="11" name="11" required value="2"></th>
+                <th><input type="number" id="12" name="12" required value="2"></th>
+            </tr>
+            <tr id="2">
+                <th><input type="number" id="21" name="21" required value="2"></th>
+                <th><input type="number" id="22" name="22" required value="2"></th>
+            </tr>
+        </table>
+        
+    </div>
+</body>
+</html>
